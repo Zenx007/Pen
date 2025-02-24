@@ -4,7 +4,9 @@ public class Caneta {
     float ponta;
     int carga;
     boolean tampada;
+
     void estado () {
+        System.out.println("-------------------------------------------");
         System.out.println("uma caneta"+ this.cor);
         System.out.println("Está tampada" + this.tampada);
         System.out.println("Ponta é:" + this.ponta) ;
@@ -17,7 +19,7 @@ public class Caneta {
 
         if (this.tampada == true) {
             System.out.println("Erro!Não é possivel rabiscar com a caneta tampada");
-        } else
+        } else {
             System.out.println("Rabiscando");
         }
     }
@@ -29,5 +31,4 @@ public class Caneta {
 
     }
 
-public void main() {
 }
