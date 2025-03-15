@@ -21,8 +21,8 @@ The `Caneta` class contains the following attributes and methods:
 
 ## 🚀 How to Run the Project
 
-1. Make sure you have the Java Development Kit (JDK) installed on your machine.
-2. Copy the `Caneta` class code into a file named `Caneta.java`.
-3. Compile the code using the command:
+1. Clone the repository:
    ```bash
-   javac Caneta.java
+   git clone https://github.com/Zenx007/Pen.git
+   cd **directory**
+
